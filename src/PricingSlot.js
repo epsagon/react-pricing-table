@@ -16,6 +16,7 @@ const propTypes = {
 const defaultProps = {
   highlighted: false,
   highlightColor: "#f44336",
+  className: '',
 };
 
 class PricingSlot extends React.Component {
@@ -28,7 +29,12 @@ class PricingSlot extends React.Component {
   }
 
   render() {
-    const {highlighted, highlightColor} = this.props;
+    const {
+      highlighted,
+      highlightColor,
+      className
+    } = this.props;
+
     return (
       <div className="Grid-cell">
         <ul className="price basic-border">
