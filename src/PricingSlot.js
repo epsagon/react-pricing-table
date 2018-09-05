@@ -11,12 +11,14 @@ const propTypes = {
   children: PropTypes.node,
   highlightColor: PropTypes.string,
   className: PropTypes.string,
+  buttonDisabled: PropTypes.bool,
 };
 
 const defaultProps = {
   highlighted: false,
   highlightColor: "#f44336",
   className: '',
+  buttonDisabled: false,
 };
 
 class PricingSlot extends React.Component {
@@ -32,7 +34,8 @@ class PricingSlot extends React.Component {
     const {
       highlighted,
       highlightColor,
-      className
+      className,
+      buttonDisabled
     } = this.props;
 
     return (
@@ -42,7 +45,7 @@ class PricingSlot extends React.Component {
           <li className="tag">{this.props.priceText}</li>
           {this.props.children}
           <li className="grey">
-            <Button onClick={this.props.onClick} color={highlightColor} className="button-submit">{this.props.buttonText}</Button>
+            <Button onClick={this.props.onClick} color={highlightColor} className="button-submit" buttonDisabled={buttonDisabled}>{this.props.buttonText}</Button>
           </li>
         </ul>
       </div>
