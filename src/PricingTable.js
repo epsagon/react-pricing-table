@@ -22,7 +22,7 @@ class PricingTable extends React.Component {
      })
     );
     return (
-      <div className="react-pricing-table">
+      <div className="react-pricing-dialog">
         <div className="Grid">
           {childrenWithProps}
         </div>

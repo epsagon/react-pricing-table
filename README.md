@@ -1,37 +1,3 @@
-<h1 align="center">React Pricing Table</h1>
-
-<div align="center">
-  <strong>Fast, flexible, simple pricing tables in React.</strong>
-</div>
-
-<div align="center">
-    Built with ❤︎ by <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy </a> and <a href=""> contributors. </a>
-</div>
-
-<br />
-
-<div align="center">
-  <!-- NPM version -->
-  <a href="https://www.npmjs.com/package/react-pricing-table">
-    <img src="https://badge.fury.io/js/react-pricing-table.svg" alt="NPM version" />
-  </a>
-  <!-- Travis build -->
-  <a href="https://travis-ci.org/gergely-nagy/react-pricing-table/">
-    <img src="https://img.shields.io/travis/gergely-nagy/react-pricing-table.svg" alt="Travis" />
-  </a>
-  <!-- Downloads -->
-  <a href="https://www.npmjs.com/package/react-pricing-table">
-    <img src="https://img.shields.io/npm/dm/react-pricing-table.svg?style=flat" alt="Downloads" />
-  </a>
-  <!-- License-->
-  <a href="https://github.com/gergely-nagy/react-pricing-table/blob/master/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License" />
-  </a>
-</div>
-<br />
-
-
-
 ## Table of Content
 - [Status](#status)
 - [Features](#features)
@@ -57,14 +23,14 @@ Pre-alpha and under heavy development, do not use!
 The package can be installed via NPM:
 
 ```
-npm install react-pricing-table --save
+npm install react-pricing-dialog --save
 ```
 
 You’ll need to install React separately since those dependencies aren’t included in the package. Below is a simple example on how to use the PricingTable in a React view.
 
 ```js
 import React from 'react';
-import {PricingTable, PricingSlot, PricingDetail} from 'react-pricing-table';
+import {PricingTable, PricingSlot, PricingDetail} from 'react-pricing-dialog';
 
 class Example extends React.Component {
 
@@ -108,7 +74,7 @@ The basic use of the PricingTable can be described with:
 ```
 
 Result:
-![react-pricing-table](http://i.imgur.com/nScph1f.png)
+![react-pricing-dialog](http://i.imgur.com/nScph1f.png)
 
 ## Compatibility
 
@@ -213,9 +179,3 @@ The examples are hosted within the docs folder and are ran in the simple add tha
         </tr>
     </tbody>
 </table>
-
-
-
-## License
-
-Copyright (c) 2017 Gergely Nagy and individual contributors. Licensed under MIT license, see [LICENSE](LICENSE) for the full license.

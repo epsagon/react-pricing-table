@@ -1,18 +1,18 @@
 {
-  "name": "react-pricing-table",
-  "version": "0.2.7",
+  "name": "react-pricing-dialog",
+  "version": "0.2.8",
   "description": "Fast, flexible, simple pricing tables in React",
-  "main": "lib/react-pricing-table.min.js",
+  "main": "lib/react-pricing-dialog.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gergely-nagy/react-pricing-table.git"
+    "url": "https://github.com/epsagon/react-pricing-dialog.git"
   },
   "bugs": {
-    "url": "https://github.com/gergely-nagy/react-pricing-table/issues"
+    "url": "https://github.com/epsagon/react-pricing-dialog/issues"
   },
-  "author": "Gergely Nagy",
+  "author": "Gergely Nagy, Ilya Libin",
   "license": "MIT",
-  "homepage": "https://gergely-nagy.github.io/react-pricing-table/",
+  "homepage": "https://github.com/epsagon/react-pricing-dialog",
   "scripts": {
     "build": "webpack --env dev && webpack --env build && npm run test",
     "dev": "webpack --progress --colors --watch --env dev",

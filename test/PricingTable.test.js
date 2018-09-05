@@ -14,9 +14,9 @@ describe('PricingTable', () => {
         ReactDOM.render(<PricingTable />, div);
     });
 
-    it('should render with "react-pricing-table" class', () => {
+    it('should render with "react-pricing-dialog" class', () => {
       const wrapper = shallow(<PricingTable  />);
-      expect(wrapper.hasClass('react-pricing-table')).toBe(true);
+      expect(wrapper.hasClass('react-pricing-dialog')).toBe(true);
     });
 
 });

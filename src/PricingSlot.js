@@ -10,6 +10,7 @@ const propTypes = {
   buttonText: PropTypes.string,
   children: PropTypes.node,
   highlightColor: PropTypes.string,
+  className: PropTypes.string,
 };
 
 const defaultProps = {
@@ -31,7 +32,7 @@ class PricingSlot extends React.Component {
     return (
       <div className="Grid-cell">
         <ul className="price basic-border">
-          <li id={(highlighted ? "highlighted" : "basic") + "-header"} className={(highlighted ? "highlighted" : "basic") + "-header"}>{this.props.title}</li>
+          <li id={(highlighted ? "highlighted" : "basic") + "-header"} className={(highlighted ? "highlighted" : "basic") + "-header " + className}>{this.props.title}</li>
           <li className="tag">{this.props.priceText}</li>
           {this.props.children}
           <li className="grey">
