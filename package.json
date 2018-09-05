@@ -1,6 +1,6 @@
 {
   "name": "react-pricing-dialog",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "Fast, flexible, simple pricing tables in React",
   "main": "lib/react-pricing-dialog.min.js",
   "repository": {

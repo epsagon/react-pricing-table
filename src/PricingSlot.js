@@ -39,9 +39,9 @@ class PricingSlot extends React.Component {
     } = this.props;
 
     return (
-      <div className="Grid-cell">
-        <ul className="price basic-border">
-          <li id={(highlighted ? "highlighted" : "basic") + "-header"} className={(highlighted ? "highlighted" : "basic") + "-header " + className}>{this.props.title}</li>
+      <div className={`Grid-cell ${className}`}>
+        <ul className={`price basic-border`}>
+          <li id={(highlighted ? "highlighted" : "basic") + "-header"} className={(highlighted ? "highlighted" : "basic") + "-header "}>{this.props.title}</li>
           <li className="tag">{this.props.priceText}</li>
           {this.props.children}
           <li className="grey">
